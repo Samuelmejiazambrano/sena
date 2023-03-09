@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background:rgb(31, 83, 197);
+    
+        }
+        
+        
+        .registro{
+            width: 450px;
+            background:#24303c;
+            padding: 30px;
+            margin: auto;
+            margin-top:100px;
+            font-family: "calibri";
+            border-radius: 4px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 7px 20px 35px #000;
+        
+        }
+        h4{
+            font-size: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+            background: #24303c;
+        }
+        .controls{
+             width: 100%;
+             background:#24303c;
+             padding: 10px;
+             border-radius: 5px;
+             margin-bottom: 10px;
+            border:2px solid #1f53c5 ;
+             font-size:15px ;
+             color: white;
+             
+             
+
+        }
+        .registro p{
+            height: 40px;
+            text-align:center ;
+            font-size: 18px;
+            line-height: 40px;
+            background: #24303c;
+        }
+        .registro a{
+            color: white;
+            text-decoration: none;
+            background: #24303c;
+        }
+        .boton{
+            margin: 15px,0;
+            width:100%;
+            font-size: 18px;
+           padding: 8px;
+           background: #1f53c5;
+           color: white;
+           font-size: 18px;
+           
+           
+        }
+        .boton:hover{
+            background:#24303c;
+        }
+    </style>
+</head>
+<body>
+    <section class="registro">
+        <h4>Formulario de Registro</h4>
+        <input class="controls" type="text"name="nombre" placeholder="ingrese su nombre">
+        <input class="controls" type="text"name="apellido" placeholder="ingrese su apellido">
+        <input class="controls" type="email"name="correo" placeholder="ingrese su correo">
+        <input class="controls" type="password"name="contrasena" placeholder="ingrese su contrasena">
+        <p>estoy de acuerdo con <a href="a">terminos y condiciones</a></p>
+        <input class="boton" type="submit" value="resgistrarse">
+        <p><a href="a">ya tengo cuenta?</a></p>
+    </section>
+</body>
+</html>
