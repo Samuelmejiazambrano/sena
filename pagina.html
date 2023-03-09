@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+   h1{
+         
+    
+      text-align: center;
+      background-color: red;
+    
+   }
+  
+   
+    .navbar{
+
+      width: 100%;
+      border: 2px white solid;
+      
+    }
+    .navbar img{
+
+      width: 80px;
+    }
+    body{
+      
+    }
+     .card{
+
+       background:rgb(33, 37, 41);
+     }
+    .card h5{
+
+      color: white;
+     }
+     .card img{
+
+      width: 100%;
+      height: 40%;
+     }
+     
+     .card{
+      border: 2px white solid;
+     }
+    </style>
+  </head>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <section class="nav">
+        
+        
+      
+      <nav class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img src="Logo.webp" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nuevo.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu"  >
+                  
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    </section>
+    
+    <section class="carru">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="spiderman.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="maxresdefault.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="encanto-franquicia-pelicula-colombia-bob-chapek-ceo-disney-998840.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section class="card">
+
+        <div class="card-group">
+          <div class="text-bg-dark p-3">Netflix, Inc. es una empresa de entretenimiento y una plataforma de streaming estadounidense. Ubicada en Los Gatos, la compañía fue fundada el 29 de agosto de 1997 y un año después comenzó su actividad, ofreciendo un servicio de alquiler de DVD a través del correo postal.</div>
+            <div class="card">
+              <img src="hawaii.jpg"card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">El detective Steve McGarrett y Danno forman parte de un equipo élite de trabajo cuya misión es eliminar el crimen en las playas del estado de Hawái. Colaborando con McGarrett y Danno, está el exdetective de la policía de Honolulú, Chin Ho Kelly, que ha sido relegado a la patrulla de seguridad federa</h5>
+                <p class="card-text"> .</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="ventana.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">A través de mi ventana es una película española original de Netflix del género romance. Es una adaptación de la novela homónima de la escritora venezolana Ariana Godoy, publicada originalmente en Wattpad. Está dirigida por Marçal Forés y protagonizada por Clara Galle y Julio Peña.</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>El detective Steve McGarrett y Danno forman parte de un equipo élite de trabajo cuya misión es eliminar el crimen en las playas del estado de Hawái. Colaborando con McGarrett y Danno, está el exdetective de la policía de Honolulú, Chin Ho Kelly, que ha sido relegado a la patrulla de seguridad federa
+            </div>
+            <div class="card">
+              <img src="Un_vecino_gru_n-127395772-large.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Otto Anderson (Tom Hanks) es un viudo cascarrabias y muy obstinado. Cuando una alegre joven familia se muda a la casa de al lado, Otto encuentra la horma de su zapato en la espabilada, y muy embarazada, Marisol, con la que entablará una muy improbable amistad que pondrá su mundo patas arriba... Remake de la película sueca 'A Man Called Ove' de 2015</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-group">
+            <div class="card">
+              <img src="tileburnedin.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dom Toretto vive una vida tranquila junto a Letty y su hijo, pero el peligro siempre regresa a su vida. En esta ocasión, el equipo se enfrenta a un complot mundial orquestado por el asesino más temible del mundo: el hermano de Dom.
+
+                  This card has supporting text</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="maxresdefault (1).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="">Mei es hija de una familia migrante, y se enfrenta a los pequeños y grandes desafíos que esta condición dictamina. La más grande de ellas: la construcción de identidad. Mei tiene que balancear su legado cultural con su vida en el entorno canadiense, viéndose obligada a trazar límites internos entre cuánto muestra, o no, de sí misma. 
+
+                  Por ende, Turning Red se vuelve un complejo retrato sobre la identidad en el mundo moderno, y sobre cómo la misma está construida de diferentes facetas congruentes, que no son necesariamente excluyentes. En otras palabras, se puede ser fan de una banda, tener buenas notas y grandes amigos, mientras se honra la herencia cultural familiar.</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="download.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Batman es un icónico personaje de DC Cómics que fue creado por Bob Kane y Bill Finger. Su primera aparición fue en la historia llamada “El caso del sindicato químico”, el cual pertenecía a la revista Detective Comics N.º 27, la cual fue lanzada por la editorial National Publications el 30 de marzo de 1939.
+
+                  Al igual que todos los superhéroes, Batman también tiene una identidad secreta. Se trata de Bruce Wayne, un reconocido empresario multimillonario que es dueño de las empresas Wayne en la ciudad Gotham. Tras haber presenciado el asesinato de sus padres, Bruce decide tomar venganza y realiza un juramento el cual es moderado por el sentido de la justicia. Es por esta razón que el personaje comenzará a entrenar física e intelectualmente, y utilizará un traje inspirado en murciélagos para combatir contra los malvados y el crimen.</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                
+
+              </div>
+            </div>
+          </div>
+          
+            
+          
+          </div>
+    </section>
+  </body>
+</html>
